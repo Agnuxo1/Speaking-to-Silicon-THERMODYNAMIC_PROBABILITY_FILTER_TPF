@@ -1,6 +1,42 @@
-*.pkl
-*.bin
+# Python
 __pycache__/
+*.py[cod]
 *.pyc
-.env
+*.pyo
+*.pyd
 venv/
+.venv/
+env/
+.env
+*.env
+
+# Large ML model files
+*.pkl
+*.pth
+*.pt
+*.h5
+*.hdf5
+*.bin
+*.onnx
+tpf_deep_model.pkl
+tpf_scaler.pkl
+
+# Dataset files (large - can be regenerated)
+*.csv
+tpf_balanced_dataset.csv
+tpf_continuous_dataset.csv
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*~
